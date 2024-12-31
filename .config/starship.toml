@@ -1,3 +1,5 @@
+[character]
+success_symbol = '[>:](bold green)' 
 [aws]
 symbol = "  "
 
@@ -6,7 +8,10 @@ symbol = " "
 
 [c]
 symbol = " "
-
+[custom.cpp]
+detect_extensions = ['cpp', 'hpp']
+symbol = "󰙲 "
+style = "blue dimmed"
 [conda]
 symbol = " "
 
